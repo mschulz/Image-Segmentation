@@ -18,4 +18,10 @@ Use Tile-128x128.ipynb to produce resized images of 128X128
 
 ### Step 4: Run the image segmentation notebook and have a play around
 
-Use Roads Detection - Image Segmentation.ipynb.
+Use Roads Detection - Image Segmentation.ipynb. This is the basic carvana code.
+
+###Step 5: Run the u-net like code.
+
+Use Roads Detection - unet.ipynb.  This works well up to image sizes 1024x1024, but generates a PyTorch error at 1500x1500.
+
+NOTE: No use of augmentations at this stage.  We just want it to run. The last run was at 97% on 1024x102 images. The best Minh got was 90.06%, the best from U-Net was 90.53 and the best from ResUnet was 91.87%.  Something is working for us here.
