@@ -20,7 +20,7 @@ Use Tile-128x128.ipynb to produce resized images of 128X128
 
 Use Roads Detection - Image Segmentation.ipynb. This is the basic carvana code.
 
-###Step 5: Run the u-net like code.
+### Step 5: Run the u-net like code.
 
 Use Roads Detection - unet.ipynb.  This works well up to image sizes 1024x1024, but generates a PyTorch error at 1500x1500.
 
